@@ -20,17 +20,19 @@ jobs:
           # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: "20"
-      - name: Cache NPM dependencies
+      - name: Install Yarn
+        run: npm install --global yarn
+      - name: Cache Yarn dependencies
         uses: actions/cache@v4
         with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
+          path: ~/.yarn/cache
+          key: ${{ runner.OS }}-yarn-cache
           restore-keys: |
-            ${{ runner.OS }}-npm-cache
+            ${{ runner.OS }}-yarn-cache
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
       - name: Build
-        run: npm run build
+        run: yarn build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
