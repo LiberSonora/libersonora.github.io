@@ -23,7 +23,7 @@ Content-Type: multipart/form-data
 | files  | File | 要处理的音频文件，支持多文件上传 |
 | config | JSON | 处理配置，可从 UI 的"预览配置"处获取 |
 
-![config](assets/config.png)
+<img src="/images/config.png" width="500" alt="配置示例" style="display: inline">
 
 **示例请求：**
 
