@@ -56,6 +56,7 @@ date: "2025-01-26"
 > 相比之下，目前的商业播放器在本地有声书播放场景上，还是网易云兼容性好点，但网易云的本地音乐没有进度记录或已播放的功能，切回到他的在线音乐之后很难找回进度，这也是想做全平台开源有声书播放器的原因之一
 
 {% grouppicture %}
+![image](/images/163-title-generated.png)
 ![image](/images/163-sub.png)
 ![image](/images/163-sub-multilang.png)
 {% endgrouppicture %}
