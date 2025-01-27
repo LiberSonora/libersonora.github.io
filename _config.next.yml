@@ -187,8 +187,8 @@ links_settings:
   layout: block
 
 links:
-  作者博客: https://blog.wj2015.com
-  Github: https://github.com/LiberSonora/LiberSonora
+  作者个人博客: https://blog.wj2015.com
+  项目 Github: https://github.com/LiberSonora/LiberSonora
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
